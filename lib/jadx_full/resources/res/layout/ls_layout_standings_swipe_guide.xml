@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.livesports.ui.matches.season.StandingsSwipeGuideView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ls_standings_swipe_guide"
+    android:background="@drawable/ls_bg_standings_swipe_guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="end|center_vertical"
+        android:orientation="vertical"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp">
+        <TextView
+            android:textSize="@dimen/ls_text_size_14"
+            android:textColor="@color/ls_white"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ls_standings_swipe_guide"
+            android:maxLines="1"
+            android:includeFontPadding="false"
+            style="@style/style_font_600"/>
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ls_img_standings_swipe_guide"
+            android:scaleType="fitCenter"
+            android:contentDescription="@null"/>
+    </LinearLayout>
+</com.transsion.livesports.ui.matches.season.StandingsSwipeGuideView>

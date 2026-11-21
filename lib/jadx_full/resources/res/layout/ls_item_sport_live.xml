@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.livesports.ui.widget.OperateScrollableHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="114dp">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ls_rv_sport_live"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:nestedScrollingEnabled="false"/>
+</com.transsion.livesports.ui.widget.OperateScrollableHost>

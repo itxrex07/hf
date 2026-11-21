@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/centerControlLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ivCenterPause"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:src="@drawable/ls_ic_player_center_pause"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ProgressBar
+        android:id="@+id/pbLoadingCenter"
+        android:visibility="gone"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:indeterminateTint="@color/ls_brand_gradient_center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/ivForward"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ls_ic_player_forward_10"
+        android:scaleType="centerInside"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivCenterPause"
+        app:layout_constraintStart_toEndOf="@+id/ivCenterPause"
+        app:layout_constraintTop_toTopOf="@+id/ivCenterPause"/>
+    <ImageView
+        android:id="@+id/ivBackward"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ls_ic_player_backward_10"
+        android:scaleType="centerInside"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivCenterPause"
+        app:layout_constraintEnd_toStartOf="@+id/ivCenterPause"
+        app:layout_constraintTop_toTopOf="@+id/ivCenterPause"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

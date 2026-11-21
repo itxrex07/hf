@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/llPremiumPreviewTip"
+    android:background="@drawable/ls_bg_premium_preview_tip"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="24dp"
+    android:paddingHorizontal="8dp">
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/ls_white"
+        android:id="@+id/tvPremiumPreviewDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mulish_regular"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="#ffdfb0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ls_premium_unlock_full_access"
+        android:fontFamily="@font/mulish_bold"
+        android:layout_marginStart="4dp"/>
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:src="@drawable/ls_ic_premium_preview_arrow"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"/>
+</LinearLayout>
